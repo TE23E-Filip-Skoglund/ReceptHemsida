@@ -1,0 +1,73 @@
+html, body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: felx;
+    flex-direction: column;
+}
+
+body {
+    background-image: url("img/bread.jpg");
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+header {
+    background-color: #784464;
+    color: #bfaf03;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: #784464;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+a {
+    color: #212121;
+    text-decoration: none;
+}
+
+
+/* Class-stiler */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.box {
+    background-color: #784464ee;
+    border: 5px solid #4747475e;
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 60px;
+    border-radius: 15px;
+    color: #212121;
+}
+
+
+/* Id-stiler */
+#center {
+    text-align: center;
+}
+
+#w500 {
+    width: 500px; 
+}
+
+#w300 {
+    width: 300px;
+}
+
+#links {
+    text-decoration: underlWine;
+    color: #212121;
+}
